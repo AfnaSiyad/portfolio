@@ -163,7 +163,7 @@
     padding-top: 30px;
 }
 .contact{
-    background: url("./images/full-stack.webp");
+    background: url("../images/full-stack.webp");
 }
 .contact .contact-content{
     padding: 6vw;
@@ -318,7 +318,7 @@
     padding: 40px 20px;
   }
   .counter{
-    background-image: url("./images/counters-bg.jpg");
+    background-image: url("../images/counters-bg.jpg");
   }
   .bg-color{
     opacity: 0.8;
