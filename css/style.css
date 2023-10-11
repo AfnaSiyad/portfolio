@@ -141,9 +141,15 @@
     width: 50%;
     background-color: #0078ff;
 }
+.about .about-content .text p{
+  font-size: calc(var(--base-font-size) * 1.2);
+}
 .text h2{
     font-size: calc(var(--base-font-size) * 2.5);
     font-weight: 700;
+}
+.about-info p span{
+  font-size: calc(var(--base-font-size) * 1.2);
 }
 .title{
     font-weight: 700;
@@ -305,6 +311,148 @@
     box-shadow: 0 0 0 3px #cde1f8;
     transition: all 500ms ease;
   }
+  .html-icon-circle{
+    padding: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 4px solid #e44d26;
+    box-shadow: 0 0 0 3px #e44d26;
+    transition: all 500ms ease;
+    background: url("../images/htmlIcon.png");
+    width: 120px;
+    height: 120px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .html-icon-circle:hover {
+    color: #fff;
+    box-shadow: 0 0 0 3px #cde1f8;
+    transition: all 500ms ease;
+    background: url("../images/htmlIconHover.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #e44d26;
+    
+  }
+  .js-icon-circle{
+    padding: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 4px solid #63a814;
+    box-shadow: 0 0 0 3px #63a814;
+    transition: all 500ms ease;
+    background: url("../images/jsIcon.png");
+    width: 120px;
+    height: 120px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .js-icon-circle:hover {
+    color: #fff;
+    box-shadow: 0 0 0 3px #cde1f8;
+    transition: all 500ms ease;
+    background: url("../images/jsIconHover.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #63a814;
+  }
+  .reactjs-icon-circle{
+    padding: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 4px solid #61dafb;
+    box-shadow: 0 0 0 3px #61dafb;
+    transition: all 500ms ease;
+    background: url("../images/ReactIcon.png");
+    width: 120px;
+    height: 120px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .reactjs-icon-circle:hover {
+    color: #fff;
+    box-shadow: 0 0 0 3px #cde1f8;
+    transition: all 500ms ease;
+    background: url("../images/ReactIconHover.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #61dafb;
+  }
+  .nodejs-icon-circle{
+    padding: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 4px solid #8cc84b;
+    box-shadow: 0 0 0 3px #8cc84b;
+    transition: all 500ms ease;
+    background: url("../images/nodeJs.png");
+    width: 120px;
+    height: 120px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .nodejs-icon-circle:hover {
+    color: #fff;
+    box-shadow: 0 0 0 3px #cde1f8;
+    transition: all 500ms ease;
+    background: url("../images/nodeJsHover.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #8cc84b;
+  }
+  .expressjs-icon-circle{
+    padding: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 4px solid #ffc928;
+    box-shadow: 0 0 0 3px #ffc928;
+    transition: all 500ms ease;
+    background: url("../images/expressJs.png");
+    width: 120px;
+    height: 120px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .expressjs-icon-circle:hover {
+    color: #fff;
+    box-shadow: 0 0 0 3px #cde1f8;
+    transition: all 500ms ease;
+    background: url("../images/expressJsHover.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ffc928;
+  }
+  .mongodb-icon-circle{
+    padding: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 4px solid #4faa41;
+    box-shadow: 0 0 0 3px #4faa41;
+    transition: all 500ms ease;
+    background: url("../images/mongoDB.png");
+    width: 120px;
+    height: 120px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .mongodb-icon-circle:hover {
+    color: #fff;
+    box-shadow: 0 0 0 3px #cde1f8;
+    transition: all 500ms ease;
+    background: url("../images/mongoDBHover.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #4faa41;
+  }
+  .service-icon-circle img{
+    width: 35px;
+  }
   .service-content{
     display: flex;
     align-items: center;
@@ -429,6 +577,9 @@
   }
   .card-img-top{
     cursor: pointer;
+  }
+  .text-justify{
+    text-align: justify;
   }
 @media  screen and (max-width:1100px) {
     .text h5{
