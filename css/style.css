@@ -633,3 +633,6 @@
         font-size: calc(var(--base-font-size) * 1.4);
     }
 }
+.errorMessage{
+  color: red;
+}
